@@ -1,4 +1,35 @@
-.conteiner {
-  min-width: 940px;
+:root {
+  --back-frame-3: rgba(254, 254, 201, 1);
+  --border-frame-3: rgba(71, 71, 79, 1);
+}
+body {
+  min-width: 1440px;
+}
+
+.container {
+  width: 940px;
   margin: 0 auto;
+}
+
+.frame-3 {
+  background-color: var(--back-frame-3);
+}
+.frame-3-text {
+  padding: 40px;
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--border-frame-3);
+}
+.rectangle {
+  border: 1px solid var(--border-frame-3);
+  width: 159px;
+  height: 53px;
+
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 61px;
 }
