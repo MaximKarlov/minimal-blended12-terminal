@@ -19,7 +19,7 @@
   text-transform: uppercase;
   color: var(--second-text-color);
 }
-.frame-2__title {
+.frame-2__title::after {
   position: absolute;
   bottom: 27px;
   left: 50%;
