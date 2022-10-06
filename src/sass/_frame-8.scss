@@ -1,0 +1,32 @@
+.frame-8 {
+    background-image: linear-gradient(#2f303a66, #2f303a66),
+        url(../images/frame-8back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.frame-8>.container {
+    padding: 69px 0;
+}
+
+.frame-8__title {
+    position: relative;
+    margin: 0px auto 73px auto;
+    font-size: 23px;
+    line-height: 1.56;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.frame-8__title::after {
+    content: "";
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+    width: 80px;
+    height: 2px;
+    translate: -50% 0;
+    background-color: var(--section-title-line-color);
+}
