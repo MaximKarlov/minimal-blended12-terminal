@@ -21,9 +21,14 @@
   color: var(--second-text-color);
 }
 .frame-2__title::after {
+  content: "";
   position: absolute;
-  bottom: 27px;
+  bottom: -27px;
   left: 50%;
+  width: 80px;
+  height: 2px;
+  translate: -50% 0;
+  background-color: var(--second-text-color);
 }
 
 .frame-2__text {
