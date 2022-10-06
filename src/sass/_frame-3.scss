@@ -4,11 +4,14 @@
 }
 .frame-3 {
   background-color: var(--back-frame-3);
+  position: relative;
 }
 .frame-3-img {
   position: absolute;
   top: 0;
   right: 50%;
+  fill: black;
+  transform: translate(50%, -50%);
 }
 .frame-3-text {
   padding: 40px;
@@ -23,8 +26,13 @@
   border: 1px solid var(--border-frame-3);
   width: 159px;
   height: 53px;
-
   margin: 0 auto;
   text-align: center;
+  align-items: center;
   padding-bottom: 61px;
+}
+.rectangle-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
