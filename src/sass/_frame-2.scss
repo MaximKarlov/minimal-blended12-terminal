@@ -1,0 +1,40 @@
+.frame-2 {
+  background-image: linear-gradient(#2f303a66, #2f303a66),
+    url(../images/frame-2back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.frame-2 > .container {
+  padding: 105px 0;
+}
+
+.frame-2__title {
+  position: relative;
+  width: 672px;
+  margin: 0px auto 55px auto;
+  font-size: 44px;
+  line-height: 1.25;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--second-text-color);
+}
+.frame-2__title::after {
+  content: "";
+  position: absolute;
+  bottom: -27px;
+  left: 50%;
+  width: 80px;
+  height: 2px;
+  translate: -50% 0;
+  background-color: var(--second-text-color);
+}
+
+.frame-2__text {
+  font-family: 'Vollkorn';
+  font-size: 15px;
+  line-height: 1.33;
+  text-align: center;
+  color: var(--second-text-color);
+}
