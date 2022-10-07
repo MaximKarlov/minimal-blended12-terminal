@@ -49,6 +49,12 @@
   font-size: 17px;
   line-height: 1.3;
   align-items: center;
+  cursor: pointer;
+}
+.send-btn:hover,
+.send-btn:focus {
+  background-color: var(--footer-button-color);
+  color: var(--footer-background-color);
 }
 .visually-hidden {
   overflow: hidden;
@@ -59,10 +65,14 @@
   height: 1px;
   width: 1px;
 }
-
+.logo-link {
+  display: block;
+  width: 43px;
+  margin: 0 auto;
+}
 .logo-img {
   margin: 0 auto;
-  padding-top: 37px;
+  margin-top: 37px;
 }
 .depiction {
   font-family: 'Vollkorn';
@@ -72,5 +82,6 @@
   line-height: 1, 47;
   text-align: center;
   color: var(--depiction-color);
-  padding-top: 14px;
+  margin-top: 14px;
+  cursor: default;
 }
